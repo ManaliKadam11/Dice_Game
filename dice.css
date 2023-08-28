@@ -1,0 +1,155 @@
+* {
+    background-image: url("./bg.webp");
+    background-position: center;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+}
+
+h1 {
+    /* text-align: center; */
+    color: white;
+    margin-top: 10px;
+    margin-left: 550px;
+    padding: 0px;
+    width: 300px;
+    background-image: none;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 6px red;
+}
+
+i {
+    background-image: none;
+    font-size: 40px;
+}
+
+p {
+    margin-left: 850;
+    margin-top: 160;
+    width: 140px;
+    background-image: none;
+    color: white;
+    text-shadow: 2px 2px 6px red;
+}
+
+#players {
+    background-image: none;
+    width: 0px;
+    height: 0px;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    /* margin-top: 90px; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+#player1 {
+    position: absolute;
+    margin-left: 520px;
+    height: -50px;
+    margin-top: 160px;
+}
+
+#player2 {
+    margin-left: 1930px;
+    margin-top: 160px;
+    position: absolute;
+    height: 50px;
+}
+
+#images {
+    height: 0px;
+    width: 0px;
+    display: flex;
+    box-shadow: 0px 0px 10px pink;
+    /* margin-left: 10px;
+    margin-top: 50px; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+#dicey1 {
+    width: 250px;
+    height: 250px;
+    background-image: none;
+    margin-left: 1255px;
+    margin-top: 550px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 12px rgb(164, 28, 188);
+    background-image: none;
+    animation-name: dice1;
+    animation-duration: 5s;
+    position: relative;
+
+}
+
+@keyframes dice1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#dicey2 {
+    width: 250px;
+    height: 250px;
+    margin-left: 450px;
+    margin-top: 550px;
+    background-image: none;
+    border-radius: 30px;
+    box-shadow: 8px 8px 12px rgb(137, 9, 160);
+    animation-name: dice2;
+    animation-duration: 5s;
+    position: relative;
+}
+
+@keyframes dice2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#but {
+    /* border: 2px solid; */
+    font-size: 50px;
+    margin-left: 550px;
+    margin-top: 450px;
+    color: white;
+    cursor: pointer;
+    background-image: none;
+    background-color: rgb(164, 28, 188);
+    /* border: rebeccapurple; */
+    box-shadow: 5px 5px 10px rgb(137, 9, 160);
+}
+
+#but:hover {
+    width: 200px;
+    height: 70px;
+}
+
+#point1 {
+    /* color: black; */
+    position: absolute;
+    /* margin-left: 1200px; */
+    height: -50px;
+    /* margin-top: 950px; */
+}
+
+#point2 {
+    /* color: black; */
+    position: absolute;
+    margin-left: 2270px;
+    height: -50px;
+    margin-top: 150px;
+}
